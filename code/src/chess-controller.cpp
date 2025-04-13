@@ -22,7 +22,7 @@ void printBoard()
 
         int val = digitalRead(muxOutAB);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(i);
+        Serial.print(i);
         Serial.print("|");
 
         selectChannel(j);
@@ -30,7 +30,7 @@ void printBoard()
 
         val = digitalRead(muxOutAB);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(j);
+        Serial.print(j);
 
         //CD Columns
         
@@ -41,7 +41,7 @@ void printBoard()
 
         val = digitalRead(muxOutCD);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(i);
+        Serial.print(i);
         Serial.print("|");
 
         selectChannel(j);
@@ -49,7 +49,7 @@ void printBoard()
 
         val = digitalRead(muxOutCD);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(j);
+        Serial.print(j);
 
 
         //EF Columns
@@ -61,7 +61,7 @@ void printBoard()
 
         val = digitalRead(muxOutEF);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(i);
+        Serial.print(i);
         Serial.print("|");
 
         selectChannel(j);
@@ -69,7 +69,7 @@ void printBoard()
 
         val = digitalRead(muxOutEF);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(j);
+        Serial.print(j);
 
 
         //GH Columns
@@ -81,7 +81,7 @@ void printBoard()
 
         val = digitalRead(muxOutGH);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(i);
+        Serial.print(i);
         Serial.print("|");
 
         selectChannel(j);
@@ -89,7 +89,7 @@ void printBoard()
 
         val = digitalRead(muxOutGH);
         Serial.print(val == HIGH ? "X: " : "O: ");
-        //Serial.print(j);
+        Serial.print(j);
 
 
         Serial.println("|");    

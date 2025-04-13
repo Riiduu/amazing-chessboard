@@ -1,4 +1,5 @@
-#include "pinouts.h"
+#include "../lib/pinouts/pinouts.h"
+#include <Arduino.h>
 
 const int S0 = 2;
 const int S1 = 3;
@@ -19,4 +20,6 @@ void setupPins()
     pinMode(muxOutCD, INPUT);
     pinMode(muxOutEF, INPUT);
     pinMode(muxOutGH, INPUT);
+
+    Serial.println("Pins set up");
 }

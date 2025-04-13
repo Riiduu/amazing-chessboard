@@ -1,11 +1,15 @@
+#include <Arduino.h>
+
 #include "lib/mcu-max/mcu-max.h"
-#include "src/chess-controller.cpp"
+#include "lib/pinouts/pinouts.h"
+#include "lib/chess-controller/chess-controller.h"
 
 void setup() 
 {
+	Serial.begin(9600);
     setupPins();
-    Serial.begin(9600);
     printBoard();
+    
 }
 
 void loop() {}
