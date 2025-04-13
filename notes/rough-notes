@@ -1,0 +1,11 @@
+# Piece movement functionality
+
+The chess piece would contain a small magnet at its base, which would activate the reed switch (regular switch in the simulide schematics), therefore registering a change in the chessboard layout.
+
+## Computer movement functionality
+
+The movement itself would be performed using a CNC movement mechanic hidden inside of the chess board. The cnc machine would use a magnet to move the chess piece on top of the board. The movement function would be stopped once the piece has been placed on top of the selected square, after which the player can then make his move.
+
+## Player movement functionality
+
+Two buttons would be placed on the side of the chessboard on each side of the chessboard's LCD screen (used for displaying info), which would function as movement finishers. Once a player has placed his piece in the desired square and pressed the respective button - his move would then end and the chessboard layout calculation phase would begin.
