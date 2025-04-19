@@ -1,3 +1,5 @@
+# In beautiful theory
+
 # Piece movement functionality
 
 The chess piece would contain a small magnet at its base, which would activate the reed switch (regular switch in the simulide schematics), therefore registering a change in the chessboard layout.
@@ -9,3 +11,33 @@ The movement itself would be performed using a CNC movement mechanic hidden insi
 ## Player movement functionality
 
 Two buttons would be placed on the side of the chessboard on each side of the chessboard's LCD screen (used for displaying info), which would function as movement finishers. Once a player has placed his piece in the desired square and pressed the respective button - his move would then end and the chessboard layout calculation phase would begin.
+
+# The real shit
+
+mcumax_set_fen_position(const char *value); - string value
+    - Do I have to update the board using this bitch every time?
+        - Yes. Fuck.
+
+
+### The reading from the reed switches
+| Merely a visual representation. Not how it actually looks in case if you're reading this while drunk (as always)
+X X X X X X X X 
+X X X X X X X X 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+X X X X X X X X 
+X X X X X X X X 
+
+You've gotta turn this bitch into code. How???
+
+### Half-assed conclusion:
+
+We have to make a representation of the chessboard layout in code, which in turn we have to associate with the respective pieces which then have to be written out in FEN
+
+#### TLDR
+
+-- Read the chessboard state
+ --> Associate the respective chess pieces
+  --> Turn that bitch into FEN... somehow

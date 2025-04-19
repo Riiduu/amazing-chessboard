@@ -9,6 +9,7 @@ const int muxOutAB = A0;
 const int muxOutCD = A1;
 const int muxOutEF = A2;
 const int muxOutGH = A3;
+const int moveBtn = 7;
 
 void setupPins()
 {
@@ -21,5 +22,5 @@ void setupPins()
     pinMode(muxOutEF, INPUT);
     pinMode(muxOutGH, INPUT);
 
-    Serial.println("Pins set up");
+    pinMode(moveBtn, INPUT_PULLUP);
 }

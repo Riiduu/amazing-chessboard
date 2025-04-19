@@ -11,6 +11,8 @@ extern const int muxOutCD;
 extern const int muxOutEF;
 extern const int muxOutGH;
 
+extern const int moveBtn;
+
 void setupPins();
 
 #endif
