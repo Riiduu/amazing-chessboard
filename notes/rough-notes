@@ -21,16 +21,34 @@ mcumax_set_fen_position(const char *value); - string value
 
 ### The reading from the reed switches
 | Merely a visual representation. Not how it actually looks in case if you're reading this while drunk (as always)
-X X X X X X X X 
-X X X X X X X X 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-X X X X X X X X 
-X X X X X X X X 
+
+X X X X X X X X    r n b q k b n r
+X X X X X X X X    p p p p p p p p
+. . . . . . . .    8 8 8 8 8 8 8 8 
+. . . . . . . .    8 8 8 8 8 8 8 8 
+. . . . . . . .    8 8 8 8 8 8 8 8 
+. . . . . . . .    8 8 8 8 8 8 8 8 
+X X X X X X X X    P P P P P P P P
+X X X X X X X X    R N B Q K B N R
+
+              ----->
+
+X X X X X X X X    r n b q k b n r
+X X X X . X X X    p p p p 8 p p p
+. . . . . . . .    8 8 8 8 8 8 8 8 
+. . . . X . . .    8 8 8 8 p 8 8 8 
+. . . . . . . .    8 8 8 8 8 8 8 8 
+. . . . . . . .    8 8 8 8 8 8 8 8 
+X X X X X X X X    P P P P P P P P
+X X X X X X X X    R N B Q K B N R
 
 You've gotta turn this bitch into code. How???
+
+
+array with reed switch states[0,1,0,1 || 1,0,1,0  ]; // the || are just for readability, not in the code
+char fen writing[8,p,8,p || p,8,p,8];
+
+Send that bitch to the engine with the mcumax_set_fen_position function and I think that should be it. Right?
 
 ### Half-assed conclusion:
 
@@ -41,3 +59,6 @@ We have to make a representation of the chessboard layout in code, which in turn
 -- Read the chessboard state
  --> Associate the respective chess pieces
   --> Turn that bitch into FEN... somehow
+
+
+# HOW THE FUCK DO I CONNECT THE TWO???!?!?!?!
