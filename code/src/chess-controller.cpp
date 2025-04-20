@@ -2,16 +2,17 @@
 #include <pinouts.h>
 #include <mcu-max.h>
 
+
+// trackingg the state of the game
 mcumax_piece board_snapshot[64];
 mcumax_piece new_snapshot[64];
-
 
 // tracking the physical state of the reed switches
 // 0 - filled; 1 - not filled
 int reedSwitchStates[64];
 int new_reedSwitchStates[64];
 
-
+// Used by the multiplexers to select the channels
 void selectChannel(int ch) {
   digitalWrite(S0, ch & 0x01);
   digitalWrite(S1, (ch >> 1) & 0x01);
@@ -19,6 +20,8 @@ void selectChannel(int ch) {
   digitalWrite(S3, (ch >> 3) & 0x01);
 }
 
+// Prints the board. If It has changed, it will print the new state
+// If it has not changed, it will print the old state
 void printBoard()
 {
 	// the new board print function
@@ -45,8 +48,12 @@ void printBoard()
     }
   }
   
+
+  Serial.print("mcumax_get_current_side(): ");
+  Serial.println(mcumax_get_current_side());
 }
 
+// Reads the state of the reed switches
 bool readSwitch(int muxIndex, int channel) {
   selectChannel(channel); // S0–S3
   delayMicroseconds(10);  // Small delay to settle
@@ -60,6 +67,7 @@ bool readSwitch(int muxIndex, int channel) {
   }
 }
 
+// Updates the board snapshot
 void updateBoardSnapshot(int switchArray[]) {
   for (int i = 0; i < 64; i++) {
     int mux = i / 16;         // Which mux (0–3)
@@ -70,6 +78,9 @@ void updateBoardSnapshot(int switchArray[]) {
   }
 }
 
+// Sets up the board layout
+// The initial position is set using FEN (Forsyth-Edwards Notation)
+// This function initializes the board with the standard starting position
 void setupBoard()
 {
   // Set the initial position using FEN
