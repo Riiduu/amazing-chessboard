@@ -2,11 +2,9 @@
 #include <pinouts.h>
 #include <mcu-max.h>
 
-
-// trackingg the state of the game in FEN writing
-char boardStateFEN[] = "rnbqkb1r/pppppppp/88888888/888888888/888888888/888888888/PPPPPPPP/RNBQKB1R w KQkq - 0 1";
-
 int moveCount = 0;
+
+char fenState[] = "rnbqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKB1R w KQkq - 0 1";
 
 // tracking the physical state of the reed switches
 // 0 - filled; 1 - not filled
@@ -20,6 +18,45 @@ void selectChannel(int ch) {
   digitalWrite(S2, (ch >> 2) & 0x01);
   digitalWrite(S3, (ch >> 3) & 0x01);
 }
+
+
+void generateFENFromState(int* state) {
+  String fen = "";
+
+  for (int rank = 0; rank < 8; rank++) {
+    int emptyCount = 0;
+
+    for (int file = 0; file < 8; file++) {
+      int index = rank * 8 + file;
+      int square = state[index];
+
+      if (square == 1) {
+        emptyCount++;
+      } else {
+        if (emptyCount > 0) {
+          fen += String(emptyCount);
+          emptyCount = 0;
+        }
+        fen += "P"; // Placeholder for a piece
+        // compare the previous state with the new state
+        
+        // figure out which piece has moved and assign it to the new position
+
+      }
+    }
+
+    if (emptyCount > 0) {
+      fen += String(emptyCount);
+    }
+
+    if (rank < 7) {
+      fen += "/";
+    }
+  }
+
+  fen.toCharArray(fenState, sizeof(fenState));
+}
+
 
 // Prints the board. If It has changed, it will print the new state
 // If it has not changed, it will print the old state
@@ -50,12 +87,11 @@ void printBoard()
         }
       }
       Serial.println();
+      
     }
   }
-  
-
-  Serial.print("mcumax_get_current_side(): ");
-  Serial.println(mcumax_get_current_side());
+  Serial.println("FEN piece placement:");
+  Serial.println(fenState);
 }
 
 // Reads the state of the reed switches
@@ -96,8 +132,8 @@ void updateBoardSnapshot(int switchArray[]) {
 void setupBoard()
 {
   mcumax_init();
-  mcumax_set_fen_position(boardStateFEN);
-
+  // mcumax_set_fen_position(boardStateFEN);
+  mcumax_set_fen_position(fenState);
   updateBoardSnapshot(reedSwitchStates);
   updateBoardSnapshot(new_reedSwitchStates);
 }
@@ -132,6 +168,8 @@ void moveBtnAction()
   saveBoard();
   delay(100);
   compareBoard();
+
+  moveCount == 0 ? generateFENFromState(reedSwitchStates) : generateFENFromState(new_reedSwitchStates);
 
   moveCount++;
 }

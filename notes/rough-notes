@@ -62,3 +62,10 @@ We have to make a representation of the chessboard layout in code, which in turn
 
 
 # HOW THE FUCK DO I CONNECT THE TWO???!?!?!?!
+
+So, now we have a function which tracks the fucking movements and is able to generate a fen string, refer to generateFENFromState(), but doesn't recognize the different pieces tho. It sees every piece as a pawn, which is gay as fuck. We're not going to ask chatgpt to do this shit for us, so we've got to figure this out ourselves.
+
+How?...
+
+- Feed the changes into the function
+-- compare with the 
