@@ -25,99 +25,44 @@ void selectChannel(int ch) {
 }
 
 
-void generateFENFromState(int* state) {
+
+void generateFENFromState() {
   String fen = "";
-
-  // for (int rank = 0; rank < 8; rank++) {
-  //   int emptyCount = 0;
-
-  //   for (int file = 0; file < 8; file++) {
-  //     int index = rank * 8 + file;
-  //     int square = state[index];
-
-  //     if (square == 1) {
-  //       emptyCount++;
-  //     } else {
-  //       if (emptyCount > 0) {
-  //         fen += String(emptyCount);
-  //         emptyCount = 0;
-  //       }
-  //       fen += "P"; // Placeholder for a piece
-  //     }
-  //   }
-
-  //   if (emptyCount > 0) {
-  //     fen += String(emptyCount);
-  //   }
-
-  //   if (rank < 7) {
-  //     fen += "/";
-  //   }
-  // }
-
-  // take the old fen
   int count = 0;
-  char startMovePiece;
-
-  // finding the starting piece
-  for (size_t i = 0; i < sizeof(fenState); i++) {
-    // range of numbers (val 1-8)
-    // before you move on make sure to check if you haven't jumped over. The necessary position.
-    for (int j = 0; j < 8; j++) {
-      if (fenState[i] == char(j)) {
-        if (count + j < startMove) {
-          count += j;
-        } else if (count + j > startMove) {
-          for (int k = count + j; j >= startMove; k--) {
-            Serial.print("Reducing from: ");
-            Serial.println(k);
-            if (k == startMove) {
-              Serial.print("Found: ");
-              Serial.println(k);
-              startMovePiece = fenState[i];
-            }
-          }
-        }
+  char startMovePiece = ' ';
+  
+  for (int i = 0; i < (int)sizeof(fenState); i++) {
+    char c = fenState[i];
+    
+    if (c >= '1' && c <= '8') {
+      int empty = c - '0';
+      if (count + empty > startMove) {
+        // startMove is in this empty space
+        startMovePiece = ' '; // no piece here
+        break;
+      } else {
+        count += empty;
+      }
+    } else if (isalpha(c)) {
+      if (count == startMove) {
+        startMovePiece = c;
+        Serial.print("Found: ");
+        Serial.println(c);
+        break;
+      } else {
+        count++;
       }
     }
-
-    // piece id (val 1)
-    char piece = toLowerCase(fenState[i]);
-    
-    if ((piece == 'p' || piece == 'r' || piece == 'n' || 
-        piece == 'b' || piece == 'q' || piece == 'k') && count != startMove) {
-        count++;
-    } else if ((piece == 'p' || piece == 'r' || piece == 'n' || 
-                piece == 'b' || piece == 'q' || piece == 'k') && count == startMove) {
-        startMovePiece += fenState[i];  // Keep original case
-    }
-    // "/" ( skip to the next; i++)
-
-
-
-    if (count == 63) {
-      startMovePiece = fenState[i];
-    }
-
-
-
-    
   }
 
+  Serial.print("Count: ");
+  Serial.println(count);
   Serial.print("StartMovePiece Var: ");
   Serial.println(startMovePiece);
-
   Serial.print("startMove Var: ");
   Serial.println(startMove);
-
-  // find the starting move pos. 
-  // Save the piece id.
-  // replace with an empty place
-  // find the ending move pos
-  // adjust the /..../ accordingly
-
-  fen.toCharArray(fenState, sizeof(fenState));
 }
+
 
 
 // Prints the board. If It has changed, it will print the new state
@@ -233,8 +178,7 @@ void moveBtnAction()
   saveBoard();
   delay(100);
   compareBoard();
-
-  moveCount == 0 ? generateFENFromState(reedSwitchStates) : generateFENFromState(new_reedSwitchStates);
+  generateFENFromState();
 
   moveCount++;
 }

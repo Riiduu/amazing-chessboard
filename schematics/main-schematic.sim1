@@ -1,148 +1,148 @@
-<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
 
-<item itemtype="Switch" CircId="Switch-465" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,292" rotation="0" hflip="1" vflip="1" label="Switch-465" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-465" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,292" rotation="0" hflip="1" vflip="1" label="Switch-465" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-445" mainComp="false" Show_id="false" Show_Val="false" Pos="96,200" rotation="0" hflip="1" vflip="1" label="Switch-445" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-445" mainComp="false" Show_id="false" Show_Val="false" Pos="96,200" rotation="0" hflip="1" vflip="1" label="Switch-445" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-423" mainComp="false" Show_id="false" Show_Val="false" Pos="436,76" rotation="0" hflip="1" vflip="1" label="Switch-423" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-423" mainComp="false" Show_id="false" Show_Val="false" Pos="436,76" rotation="0" hflip="1" vflip="1" label="Switch-423" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-556" mainComp="false" Show_id="false" Show_Val="false" Pos="556,292" rotation="0" hflip="1" vflip="1" label="Switch-556" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-556" mainComp="false" Show_id="false" Show_Val="false" Pos="556,292" rotation="0" hflip="1" vflip="1" label="Switch-556" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-490" mainComp="false" Show_id="false" Show_Val="false" Pos="96,628" rotation="0" hflip="1" vflip="1" label="Switch-490" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-490" mainComp="false" Show_id="false" Show_Val="false" Pos="96,628" rotation="0" hflip="1" vflip="1" label="Switch-490" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-573" mainComp="false" Show_id="false" Show_Val="false" Pos="684,628" rotation="0" hflip="1" vflip="1" label="Switch-573" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-573" mainComp="false" Show_id="false" Show_Val="false" Pos="684,628" rotation="0" hflip="1" vflip="1" label="Switch-573" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-477" mainComp="false" Show_id="false" Show_Val="false" Pos="436,504" rotation="0" hflip="1" vflip="1" label="Switch-477" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-477" mainComp="false" Show_id="false" Show_Val="false" Pos="436,504" rotation="0" hflip="1" vflip="1" label="Switch-477" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-531" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,412" rotation="0" hflip="1" vflip="1" label="Switch-531" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-531" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,412" rotation="0" hflip="1" vflip="1" label="Switch-531" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-456" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,76" rotation="0" hflip="1" vflip="1" label="Switch-456" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-456" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,76" rotation="0" hflip="1" vflip="1" label="Switch-456" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-419" mainComp="false" Show_id="false" Show_Val="false" Pos="92,292" rotation="0" hflip="1" vflip="1" label="Switch-419" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-419" mainComp="false" Show_id="false" Show_Val="false" Pos="92,292" rotation="0" hflip="1" vflip="1" label="Switch-419" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-524" mainComp="false" Show_id="false" Show_Val="false" Pos="560,412" rotation="0" hflip="1" vflip="1" label="Switch-524" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-524" mainComp="false" Show_id="false" Show_Val="false" Pos="560,412" rotation="0" hflip="1" vflip="1" label="Switch-524" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-482" mainComp="false" Show_id="false" Show_Val="false" Pos="92,504" rotation="0" hflip="1" vflip="1" label="Switch-482" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-482" mainComp="false" Show_id="false" Show_Val="false" Pos="92,504" rotation="0" hflip="1" vflip="1" label="Switch-482" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-552" mainComp="false" Show_id="false" Show_Val="false" Pos="96,-16" rotation="0" hflip="1" vflip="1" label="Switch-552" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-552" mainComp="false" Show_id="false" Show_Val="false" Pos="96,-16" rotation="0" hflip="1" vflip="1" label="Switch-552" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-516" mainComp="false" Show_id="false" Show_Val="false" Pos="340,504" rotation="0" hflip="1" vflip="1" label="Switch-516" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-516" mainComp="false" Show_id="false" Show_Val="false" Pos="340,504" rotation="0" hflip="1" vflip="1" label="Switch-516" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-428" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,628" rotation="0" hflip="1" vflip="1" label="Switch-428" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-428" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,628" rotation="0" hflip="1" vflip="1" label="Switch-428" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-447" mainComp="false" Show_id="false" Show_Val="false" Pos="440,628" rotation="0" hflip="1" vflip="1" label="Switch-447" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-447" mainComp="false" Show_id="false" Show_Val="false" Pos="440,628" rotation="0" hflip="1" vflip="1" label="Switch-447" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-555" mainComp="false" Show_id="false" Show_Val="false" Pos="808,412" rotation="0" hflip="1" vflip="1" label="Switch-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-555" mainComp="false" Show_id="false" Show_Val="false" Pos="808,412" rotation="0" hflip="1" vflip="1" label="Switch-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
 <item itemtype="Subcircuit" CircId="74XX150-449" mainComp="false" Show_id="true" Show_Val="false" Pos="1012,116" rotation="180" hflip="-1" vflip="-1" label="74XX150-449" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
 <item itemtype="Subcircuit" CircId="74XX150-413" mainComp="false" Show_id="true" Show_Val="false" Pos="1012,340" rotation="180" hflip="-1" vflip="-1" label="74XX150-413" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
-<item itemtype="Switch" CircId="Switch-566" mainComp="false" Show_id="false" Show_Val="false" Pos="684,412" rotation="0" hflip="1" vflip="1" label="Switch-566" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-566" mainComp="false" Show_id="false" Show_Val="false" Pos="684,412" rotation="0" hflip="1" vflip="1" label="Switch-566" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-472" mainComp="false" Show_id="false" Show_Val="false" Pos="216,292" rotation="0" hflip="1" vflip="1" label="Switch-472" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-472" mainComp="false" Show_id="false" Show_Val="false" Pos="216,292" rotation="0" hflip="1" vflip="1" label="Switch-472" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-440" mainComp="false" Show_id="false" Show_Val="false" Pos="556,76" rotation="0" hflip="1" vflip="1" label="Switch-440" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-440" mainComp="false" Show_id="false" Show_Val="false" Pos="556,76" rotation="0" hflip="1" vflip="1" label="Switch-440" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-461" mainComp="false" Show_id="false" Show_Val="false" Pos="680,504" rotation="0" hflip="1" vflip="1" label="Switch-461" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-461" mainComp="false" Show_id="false" Show_Val="false" Pos="680,504" rotation="0" hflip="1" vflip="1" label="Switch-461" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-570" mainComp="false" Show_id="false" Show_Val="false" Pos="804,292" rotation="0" hflip="1" vflip="1" label="Switch-570" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-570" mainComp="false" Show_id="false" Show_Val="false" Pos="804,292" rotation="0" hflip="1" vflip="1" label="Switch-570" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-558" mainComp="false" Show_id="false" Show_Val="false" Pos="92,76" rotation="0" hflip="1" vflip="1" label="Switch-558" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-558" mainComp="false" Show_id="false" Show_Val="false" Pos="92,76" rotation="0" hflip="1" vflip="1" label="Switch-558" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
 <item itemtype="Subcircuit" CircId="74XX150-506" mainComp="false" Show_id="true" Show_Val="false" Pos="1012,564" rotation="180" hflip="-1" vflip="-1" label="74XX150-506" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
-<item itemtype="Switch" CircId="Switch-550" mainComp="false" Show_id="false" Show_Val="false" Pos="344,-16" rotation="0" hflip="1" vflip="1" label="Switch-550" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-550" mainComp="false" Show_id="false" Show_Val="false" Pos="344,-16" rotation="0" hflip="1" vflip="1" label="Switch-550" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-459" mainComp="false" Show_id="false" Show_Val="false" Pos="804,504" rotation="0" hflip="1" vflip="1" label="Switch-459" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-459" mainComp="false" Show_id="false" Show_Val="false" Pos="804,504" rotation="0" hflip="1" vflip="1" label="Switch-459" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-430" mainComp="false" Show_id="false" Show_Val="false" Pos="216,76" rotation="0" hflip="1" vflip="1" label="Switch-430" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-430" mainComp="false" Show_id="false" Show_Val="false" Pos="216,76" rotation="0" hflip="1" vflip="1" label="Switch-430" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-513" mainComp="false" Show_id="false" Show_Val="false" Pos="556,720" rotation="0" hflip="1" vflip="1" label="Switch-513" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-513" mainComp="false" Show_id="false" Show_Val="false" Pos="556,720" rotation="0" hflip="1" vflip="1" label="Switch-513" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
 <item itemtype="Subcircuit" CircId="Nano-533" mainComp="false" Show_id="true" Show_Val="false" Pos="488,784" rotation="-90" hflip="1" vflip="1" label="Nano-533" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
-<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" Program="../code/.pio/build/nanoatmega328/firmware.hex" Auto_Load="false" saveEepr="true" SerialMon="-1" />
+<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" Program="../code/.pio/build/nanoatmega328/firmware.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="1" />
 </item>
 
-<item itemtype="Switch" CircId="Switch-553" mainComp="false" Show_id="false" Show_Val="false" Pos="220,628" rotation="0" hflip="1" vflip="1" label="Switch-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-553" mainComp="false" Show_id="false" Show_Val="false" Pos="220,628" rotation="0" hflip="1" vflip="1" label="Switch-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-519" mainComp="false" Show_id="false" Show_Val="false" Pos="804,720" rotation="0" hflip="1" vflip="1" label="Switch-519" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-519" mainComp="false" Show_id="false" Show_Val="false" Pos="804,720" rotation="0" hflip="1" vflip="1" label="Switch-519" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-483" mainComp="false" Show_id="false" Show_Val="false" Pos="216,720" rotation="0" hflip="1" vflip="1" label="Switch-483" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-483" mainComp="false" Show_id="false" Show_Val="false" Pos="216,720" rotation="0" hflip="1" vflip="1" label="Switch-483" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-568" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,-16" rotation="0" hflip="1" vflip="1" label="Switch-568" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-568" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,-16" rotation="0" hflip="1" vflip="1" label="Switch-568" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-520" mainComp="false" Show_id="false" Show_Val="false" Pos="560,200" rotation="0" hflip="1" vflip="1" label="Switch-520" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-520" mainComp="false" Show_id="false" Show_Val="false" Pos="560,200" rotation="0" hflip="1" vflip="1" label="Switch-520" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-437" mainComp="false" Show_id="false" Show_Val="false" Pos="340,292" rotation="0" hflip="1" vflip="1" label="Switch-437" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-437" mainComp="false" Show_id="false" Show_Val="false" Pos="340,292" rotation="0" hflip="1" vflip="1" label="Switch-437" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-414" mainComp="false" Show_id="false" Show_Val="false" Pos="340,76" rotation="0" hflip="1" vflip="1" label="Switch-414" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-414" mainComp="false" Show_id="false" Show_Val="false" Pos="340,76" rotation="0" hflip="1" vflip="1" label="Switch-414" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-422" mainComp="false" Show_id="false" Show_Val="false" Pos="220,200" rotation="0" hflip="1" vflip="1" label="Switch-422" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-422" mainComp="false" Show_id="false" Show_Val="false" Pos="220,200" rotation="0" hflip="1" vflip="1" label="Switch-422" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-480" mainComp="false" Show_id="false" Show_Val="false" Pos="344,412" rotation="0" hflip="1" vflip="1" label="Switch-480" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-480" mainComp="false" Show_id="false" Show_Val="false" Pos="344,412" rotation="0" hflip="1" vflip="1" label="Switch-480" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-474" mainComp="false" Show_id="false" Show_Val="false" Pos="808,-16" rotation="0" hflip="1" vflip="1" label="Switch-474" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-474" mainComp="false" Show_id="false" Show_Val="false" Pos="808,-16" rotation="0" hflip="1" vflip="1" label="Switch-474" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-503" mainComp="false" Show_id="false" Show_Val="false" Pos="556,504" rotation="0" hflip="1" vflip="1" label="Switch-503" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-503" mainComp="false" Show_id="false" Show_Val="false" Pos="556,504" rotation="0" hflip="1" vflip="1" label="Switch-503" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-546" mainComp="false" Show_id="false" Show_Val="false" Pos="560,628" rotation="0" hflip="1" vflip="1" label="Switch-546" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-546" mainComp="false" Show_id="false" Show_Val="false" Pos="560,628" rotation="0" hflip="1" vflip="1" label="Switch-546" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="TextComponent" CircId="TextComponent-448" mainComp="false" Show_id="false" Show_Val="false" Pos="216,844" rotation="0" hflip="1" vflip="1" label="TextComponent-448" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Move button" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="true" Text="Move button" />
+<item itemtype="TextComponent" CircId="TextComponent-448" mainComp="false" Show_id="false" Show_Val="false" Pos="216,844" rotation="0" hflip="1" vflip="1" label="TextComponent-448" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Move button" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="Move button" />
 
-<item itemtype="Switch" CircId="Switch-535" mainComp="false" Show_id="false" Show_Val="false" Pos="440,200" rotation="0" hflip="1" vflip="1" label="Switch-535" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-535" mainComp="false" Show_id="false" Show_Val="false" Pos="440,200" rotation="0" hflip="1" vflip="1" label="Switch-535" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Push" CircId="Push-473" mainComp="false" Show_id="false" Show_Val="false" Pos="328,852" rotation="90" hflip="1" vflip="1" label="Push-473" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+<item itemtype="Push" CircId="Push-473" mainComp="false" Show_id="false" Show_Val="false" Pos="328,852" rotation="90" hflip="1" vflip="1" label="Push-473" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-458" mainComp="false" Show_id="false" Show_Val="false" Pos="560,-16" rotation="0" hflip="1" vflip="1" label="Switch-458" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-458" mainComp="false" Show_id="false" Show_Val="false" Pos="560,-16" rotation="0" hflip="1" vflip="1" label="Switch-458" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-511" mainComp="false" Show_id="false" Show_Val="false" Pos="680,292" rotation="0" hflip="1" vflip="1" label="Switch-511" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-511" mainComp="false" Show_id="false" Show_Val="false" Pos="680,292" rotation="0" hflip="1" vflip="1" label="Switch-511" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-463" mainComp="false" Show_id="false" Show_Val="false" Pos="440,-16" rotation="0" hflip="1" vflip="1" label="Switch-463" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-463" mainComp="false" Show_id="false" Show_Val="false" Pos="440,-16" rotation="0" hflip="1" vflip="1" label="Switch-463" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-434" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,504" rotation="0" hflip="1" vflip="1" label="Switch-434" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-434" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,504" rotation="0" hflip="1" vflip="1" label="Switch-434" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-444" mainComp="false" Show_id="false" Show_Val="false" Pos="808,628" rotation="0" hflip="1" vflip="1" label="Switch-444" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-444" mainComp="false" Show_id="false" Show_Val="false" Pos="808,628" rotation="0" hflip="1" vflip="1" label="Switch-444" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-549" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,720" rotation="0" hflip="1" vflip="1" label="Switch-549" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-549" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,720" rotation="0" hflip="1" vflip="1" label="Switch-549" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-441" mainComp="false" Show_id="false" Show_Val="false" Pos="804,76" rotation="0" hflip="1" vflip="1" label="Switch-441" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-441" mainComp="false" Show_id="false" Show_Val="false" Pos="804,76" rotation="0" hflip="1" vflip="1" label="Switch-441" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-509" mainComp="false" Show_id="false" Show_Val="false" Pos="436,292" rotation="0" hflip="1" vflip="1" label="Switch-509" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-509" mainComp="false" Show_id="false" Show_Val="false" Pos="436,292" rotation="0" hflip="1" vflip="1" label="Switch-509" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-454" mainComp="false" Show_id="false" Show_Val="false" Pos="680,76" rotation="0" hflip="1" vflip="1" label="Switch-454" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-454" mainComp="false" Show_id="false" Show_Val="false" Pos="680,76" rotation="0" hflip="1" vflip="1" label="Switch-454" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-439" mainComp="false" Show_id="false" Show_Val="false" Pos="436,720" rotation="0" hflip="1" vflip="1" label="Switch-439" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-439" mainComp="false" Show_id="false" Show_Val="false" Pos="436,720" rotation="0" hflip="1" vflip="1" label="Switch-439" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-574" mainComp="false" Show_id="false" Show_Val="false" Pos="684,200" rotation="0" hflip="1" vflip="1" label="Switch-574" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-574" mainComp="false" Show_id="false" Show_Val="false" Pos="684,200" rotation="0" hflip="1" vflip="1" label="Switch-574" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-497" mainComp="false" Show_id="false" Show_Val="false" Pos="808,200" rotation="0" hflip="1" vflip="1" label="Switch-497" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-497" mainComp="false" Show_id="false" Show_Val="false" Pos="808,200" rotation="0" hflip="1" vflip="1" label="Switch-497" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-455" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,200" rotation="0" hflip="1" vflip="1" label="Switch-455" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-455" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,200" rotation="0" hflip="1" vflip="1" label="Switch-455" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-526" mainComp="false" Show_id="false" Show_Val="false" Pos="92,720" rotation="0" hflip="1" vflip="1" label="Switch-526" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-526" mainComp="false" Show_id="false" Show_Val="false" Pos="92,720" rotation="0" hflip="1" vflip="1" label="Switch-526" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-426" mainComp="false" Show_id="false" Show_Val="false" Pos="684,-16" rotation="0" hflip="1" vflip="1" label="Switch-426" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-426" mainComp="false" Show_id="false" Show_Val="false" Pos="684,-16" rotation="0" hflip="1" vflip="1" label="Switch-426" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-492" mainComp="false" Show_id="false" Show_Val="false" Pos="340,720" rotation="0" hflip="1" vflip="1" label="Switch-492" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-492" mainComp="false" Show_id="false" Show_Val="false" Pos="340,720" rotation="0" hflip="1" vflip="1" label="Switch-492" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-435" mainComp="false" Show_id="false" Show_Val="false" Pos="220,-16" rotation="0" hflip="1" vflip="1" label="Switch-435" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-435" mainComp="false" Show_id="false" Show_Val="false" Pos="220,-16" rotation="0" hflip="1" vflip="1" label="Switch-435" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
 <item itemtype="Subcircuit" CircId="74XX150-559" mainComp="false" Show_id="true" Show_Val="false" Pos="1012,-96" rotation="180" hflip="-1" vflip="-1" label="74XX150-559" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
-<item itemtype="Switch" CircId="Switch-571" mainComp="false" Show_id="false" Show_Val="false" Pos="216,504" rotation="0" hflip="1" vflip="1" label="Switch-571" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-571" mainComp="false" Show_id="false" Show_Val="false" Pos="216,504" rotation="0" hflip="1" vflip="1" label="Switch-571" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-488" mainComp="false" Show_id="false" Show_Val="false" Pos="680,720" rotation="0" hflip="1" vflip="1" label="Switch-488" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-488" mainComp="false" Show_id="false" Show_Val="false" Pos="680,720" rotation="0" hflip="1" vflip="1" label="Switch-488" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-471" mainComp="false" Show_id="false" Show_Val="false" Pos="344,628" rotation="0" hflip="1" vflip="1" label="Switch-471" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-471" mainComp="false" Show_id="false" Show_Val="false" Pos="344,628" rotation="0" hflip="1" vflip="1" label="Switch-471" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-466" mainComp="false" Show_id="false" Show_Val="false" Pos="220,412" rotation="0" hflip="1" vflip="1" label="Switch-466" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-466" mainComp="false" Show_id="false" Show_Val="false" Pos="220,412" rotation="0" hflip="1" vflip="1" label="Switch-466" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-427" mainComp="false" Show_id="false" Show_Val="false" Pos="344,200" rotation="0" hflip="1" vflip="1" label="Switch-427" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-427" mainComp="false" Show_id="false" Show_Val="false" Pos="344,200" rotation="0" hflip="1" vflip="1" label="Switch-427" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-523" mainComp="false" Show_id="false" Show_Val="false" Pos="440,412" rotation="0" hflip="1" vflip="1" label="Switch-523" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-523" mainComp="false" Show_id="false" Show_Val="false" Pos="440,412" rotation="0" hflip="1" vflip="1" label="Switch-523" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
-<item itemtype="Switch" CircId="Switch-421" mainComp="false" Show_id="false" Show_Val="false" Pos="96,412" rotation="0" hflip="1" vflip="1" label="Switch-421" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+<item itemtype="Switch" CircId="Switch-421" mainComp="false" Show_id="false" Show_Val="false" Pos="96,412" rotation="0" hflip="1" vflip="1" label="Switch-421" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
 
 <item itemtype="Node" CircId="Node-438" mainComp="false" Pos="-4,76" />
 
