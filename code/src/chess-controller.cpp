@@ -55,6 +55,7 @@ void generateFENFromState() {
     }
   }
 
+  // TODO: Remove these at some point
   Serial.print("Count: ");
   Serial.println(count);
   Serial.print("StartMovePiece Var: ");
@@ -67,6 +68,7 @@ void generateFENFromState() {
 
 // Prints the board. If It has changed, it will print the new state
 // If it has not changed, it will print the old state
+// TODO: This prints only on the serial monitor. Absolutely unnecessary for anything other than debugging purposes
 void printBoard()
 {
 	// the new board print function
@@ -150,6 +152,7 @@ void saveBoard()
   updateBoardSnapshot(new_reedSwitchStates);
 }
 
+// Figures out where did the move start and where did it end
 void compareBoard()
 {
   for (int i = 0; i < 64; i++) {
@@ -168,6 +171,7 @@ void compareBoard()
     reedSwitchStates[i] = new_reedSwitchStates[i];
   }
 
+  // TODO: Only debugging benefit
   Serial.print(startMove);
   Serial.print(": -> ");
   Serial.println(endMove);
